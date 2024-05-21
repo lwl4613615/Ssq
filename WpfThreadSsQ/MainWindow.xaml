@@ -1,0 +1,25 @@
+﻿<Window x:Class="WpfThreadSsQ.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfThreadSsQ"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="650" Width="1200">
+    <WindowChrome.WindowChrome>
+        <WindowChrome NonClientFrameEdges="None" UseAeroCaptionButtons="False"/>
+    </WindowChrome.WindowChrome>
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                <GradientStop Color="#BBECE2" Offset="1"/>
+                <GradientStop Color="#475BBC" Offset="0"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+    </Grid>
+   
+</Window>
